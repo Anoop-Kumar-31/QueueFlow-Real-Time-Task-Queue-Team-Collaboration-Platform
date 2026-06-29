@@ -280,19 +280,19 @@ Rendered with **Recharts** — Pie charts, bar charts, and trend line charts —
 ```
 ┌───────────────────────────────────────────────────────────┐
 │                 BROWSER (React 19 SPA)                    │
-│  Redux Store ◄──► Socket.IO Client ◄──► REST via fetch   │
+│  Redux Store ◄──► Socket.IO Client ◄──► REST via fetch    │
 │  (auth, projects, tasks)     │        (fetchAPI wrapper)  │
 └──────────────────────────────┬────────────────────────────┘
                                │ HTTPS + WSS
 ┌──────────────────────────────▼────────────────────────────┐
 │               Express 5 + Socket.IO SERVER                │
-│  JWT Middleware → Project Role Middleware → Controllers    │
+│  JWT Middleware → Project Role Middleware → Controllers   │
 │                         ↓                                 │
 │                    Prisma ORM                             │
 └──────────────────────────────┬────────────────────────────┘
                                │
 ┌──────────────────────────────▼────────────────────────────┐
-│            PostgreSQL (hosted on Supabase)                 │
+│            PostgreSQL (hosted on Supabase)                │
 │  Users · Projects · Tasks · Members · Activities · Notes  │
 │              + Keep-Alive Cron (every 5 days)             │
 └───────────────────────────────────────────────────────────┘
