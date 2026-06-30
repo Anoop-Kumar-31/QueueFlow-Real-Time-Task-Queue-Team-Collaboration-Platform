@@ -332,30 +332,6 @@ Rendered with **Recharts** — Pie charts, bar charts, and trend line charts —
 
 > Six models connected through relational foreign keys with strategic `onDelete` behaviors.
 
-```
-┌──────────┐       ┌──────────────┐       ┌──────────┐
-│   User   │──────▶│ProjectMember │◀──────│ Project  │
-│          │       │(junction)    │       │          │
-│ id       │       │ @@unique     │       │ id       │
-│ name     │       │ [user_id,    │       │ name     │
-│ email    │       │  project_id] │       │ desc     │
-│ password │       └──────────────┘       │ created  │
-└──────────┘                              │  _by     │
-      │                                   └──────────┘
-      │                                        │
-      ▼                                        ▼
-┌──────────┐       ┌──────────────┐       ┌──────────┐
-│  Task    │◀──────│ StickyNote   │       │ Project  │
-│          │       │ (onDelete:   │       │ Invite   │
-│ status   │       │  Cascade)    │       │          │
-│ priority │       └──────────────┘       │ code     │
-│ position │                              │ expires  │
-│ started  │       ┌──────────────┐       │  _at     │
-│  _at     │◀ ─ ─ ─│ActivityEvent │       └──────────┘
-│ completed│       │ (onDelete:   │
-│  _at     │       │  SetNull)    │
-└──────────┘       └──────────────┘
-```
 <img src="https://github.com/Anoop-Kumar-31/QueueFlow_Backend/blob/main/screenshots/ER_NEW.png" alt="Sign Up" width="100%" style="border-radius: 8px;" />
 
 ### Key Design Decisions
