@@ -22,26 +22,21 @@ A full-stack SPA built from scratch with WebSocket-first architecture.
 <p align="center">
 
 <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white&style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Node.js-Express_5-339933?logo=node.js&logoColor=white&style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Socket.io-4.8-010101?logo=socket.io&logoColor=white&style=for-the-badge">
-
-<img src="https://img.shields.io/badge/PostgreSQL-Supabase-4169E1?logo=postgresql&logoColor=white&style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Prisma-ORM-2D3748?logo=prisma&logoColor=white&style=for-the-badge">
-
+<img src="https://img.shields.io/badge/Redux_Toolkit-2.x-764ABC?logo=redux&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/TailwindCSS-4-38B2AC?logo=tailwindcss&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/React_Router-7-CA4245?logo=reactrouter&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/Recharts-3-22C55E?logo=chartdotjs&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/Lucide-Icons-F56040?logo=lucide&logoColor=white&style=for-the-badge">
 </p>
 
 <p align="center">
 
-<img src="https://img.shields.io/github/license/Anoop-Kumar-31/QueueFlow?style=for-the-badge">
-
-<img src="https://img.shields.io/github/stars/Anoop-Kumar-31/QueueFlow?style=for-the-badge">
-
-<img src="https://img.shields.io/github/last-commit/Anoop-Kumar-31/QueueFlow?style=for-the-badge">
-
-<img src="https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Node.js-22-339933?logo=nodedotjs&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/Express-5-000000?logo=express&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/Prisma-ORM-2D3748?logo=prisma&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens&logoColor=white&style=for-the-badge">
+<img src="https://img.shields.io/badge/Socket.io-4.8-010101?logo=socketdotio&logoColor=white&style=for-the-badge">
 
 </p>
 
