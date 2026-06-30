@@ -356,6 +356,7 @@ Rendered with **Recharts** — Pie charts, bar charts, and trend line charts —
 │  _at     │       │  SetNull)    │
 └──────────┘       └──────────────┘
 ```
+<img src="https://github.com/Anoop-Kumar-31/QueueFlow_Backend/blob/main/screenshots/ER_NEW.png" alt="Sign Up" width="100%" style="border-radius: 8px;" />
 
 ### Key Design Decisions
 
